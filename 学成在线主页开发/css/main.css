@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    margin: auto;
+    width: 1200px;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    height: 40px;
+    margin: 30px auto;
+    /*background-color: #00a4ff;*/
+}
+
+.logo {
+    height: 42px;
+    width: 198px;
+    float: left;
+    /*background-color: #00a4ff;*/
+}
+
+.nav {
+    float: left;
+    margin-left: 45px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    color: black;
+}
+
+.search {
+    width: 412px;
+    height: 42px;
+    background-color: skyblue;
+    margin-left: 20px;
+    float: left;
+}
+.user{
+    float: left;
+    margin-left: 50px;
+    font-size: 18px;
+    color: #666;
+}
+.banner {
+    height: 421px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 421px;
+    background-image: url(../images/banner2_20190819_210028.png);
+    background-repeat: no-repeat;
+}
+
+.banner-left {
+    width: 190px;
+    height: 421px;
+    float: left;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.banner-left li {
+    width: 170px;
+    height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.banner-left li:hover {
+    background-color: #00a4ff;
+}
+
+.banner-left li a {
+    color: #cccccc;
+}
+
+.banner-left li span {
+    float: right;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #cccccc;
+}
+.banner-right {
+    width: 230px;
+    height: 300px;
+    background-color: white;
+    float: right;
+    margin-top: 50px;
+}
+
+.banner-right-top {
+    width: 230px;
+    height: 50px;
+    background-color: #00a4ff;
+    color: #f3f5f7;
+    text-align: center;
+    line-height: 50px;
+}
+
+.banner-right-xia {
+    width: 230px;
+    height: 250px;
+    color: #666;
+    background-color: white;
+}
+
+.banner-right-xia>div {
+    margin: 20px;
+}
+
+.banner-right-xia>div>div {
+    margin-bottom: 20px;
+}
+
+.banner-right-xia div>div p {
+    font-size: 10px;
+}
+
+.kcbutton {
+    margin-top: 5px;
+    text-align: center;
+}
+.goods{
+    width: 1200px;
+    /*background-color: #00a4ff;*/
+    margin: 15px auto auto;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+    background-color: #fff;
+    height: 60px;
+}
+.goods div h3{
+    color: #00a4ff;
+    height: 60px;
+    display: inline;
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.goods div span{
+    color: #666;
+    height: 60px;
+    font-weight: 100;
+    margin-left: 20px;
+    line-height: 60px;
+}
+.goods .sm{
+    float: left;
+}
+.goods .zj{
+    float: left;
+    margin-left: 20px;
+}
+.goods .zj li{
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.goods .xm{
+    float: right;
+}
+.kucct{
+    overflow: hidden;
+    padding-top: 10px;
+}
+.kucct ul li{
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    float: left;
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+.kucct ul li:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.gg {
+    float: right;
+    margin-left: 50px;
+}
+
+.gg ul li a {
+    color: #666;
+    font-size: 14px;
+}
+
+.app {
+    display: block;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+.app:hover {
+    border: 2px solid aqua;
+    background-color: #00a4ff;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+}
